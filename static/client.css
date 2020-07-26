@@ -1,0 +1,20 @@
+.container{
+    width: 300px;
+    background-color: white;
+    margin-top:100px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(255,10,127,1) 0%, rgba(175,4,97,1) 0%, rgba(255,0,122,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.btn,.btn:hover,.btn:focus{
+    background: linear-gradient(90deg, rgba(255,10,127,1) 0%, rgba(175,4,97,1) 0%, rgba(255,0,122,1) 100%, rgba(0,212,255,1) 100%);
+    border: none;
+}
+
+input:focus,select:focus,input:hover,select:hover{
+    border-color: linear-gradient(90deg, rgba(255,10,127,1) 0%, rgba(175,4,97,1) 0%, rgba(255,0,122,1) 100%, rgba(0,212,255,1) 100%);
+}

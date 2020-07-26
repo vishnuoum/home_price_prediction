@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static',filename='client.css') }}">
+    <script src="{{ url_for('static',filename='client.js') }}"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="form">
+            <div class="form-group">
+                <label for="area">Select Area</label>
+                <select name="area" id="area" class="form-control" required>
+                    <option value="" disabled selected>Select an area</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="sqft">Enter total square feet</label>
+                <input type="text" id="sqft" name="sqft" class="form-control" placeholder="Enter....." required>
+            </div>
+            <div class="form-group">
+                <label for="bed">Enter number of bedrooms</label>
+                <input type="text" name="bed" id="bed" class="form-control" placeholder="Enter....." required>
+            </div>
+            <div class="form-group">
+                <label for="area">Enter number of bathrooms</label>
+                <input type="text" name="bath" id="bath" class="form-control" placeholder="Enter....." required>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-block">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
