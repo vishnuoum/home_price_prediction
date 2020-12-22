@@ -5,7 +5,7 @@
 ## Usage Guide
 * Run ```pip3 install requirements.txt```
 * Then run ```python3 server.py```
-* Then go to **localhost:5000** to view the project.
+* Then launch  **localhost:5000** from your browser, to view the project.
 
 ## Screenshots
 
