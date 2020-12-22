@@ -1,6 +1,7 @@
 # Bengaluru Home Price Prediction
 * Python-flask based project that predicts the price of houses based on attributes such as no. of rooms, place, etc.
-* Developed as project by following Machine Learning Series from CodeBasics YouTube channel.
+* Developed as project by following Machine Learning Series from <a href="https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ">CodeBasics YouTube channel</a>.
+* Demo link : <a href="https://bengaluru-home-price-detection.herokuapp.com/">View Demo</a>
 
 ## Usage Guide
 * Run ```pip3 install requirements.txt```
