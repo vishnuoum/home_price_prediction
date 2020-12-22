@@ -1,5 +1,10 @@
-# home_price_prediction
-Python-flask based project that predicts the price of houses based on attributes such as no. of rooms, place, etc.
+# Bengaluru Home Price Prediction
+* Python-flask based project that predicts the price of houses based on attributes such as no. of rooms, place, etc.
+* Developed as project by following Machine Learning Series from CodeBasics YouTube channel.
+
+## Usage Guide
+* Run ```pip3 install requirements.txt```
+* Then run ```python3 main.py```
 
 ## Screenshots
 
