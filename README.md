@@ -3,8 +3,9 @@
 * Developed as project by following Machine Learning Series from CodeBasics YouTube channel.
 
 ## Usage Guide
-* Run ```pip3 install requirements.txt```
-* Then run ```python3 main.py```
+* Run ```pip3 install requirements.txt```.
+* Then run ```python3 server.py```.
+* Then go to **localhost:5000** to view the project.
 
 ## Screenshots
 
